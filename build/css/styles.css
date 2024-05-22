@@ -730,6 +730,34 @@ video {
   height: 7rem;
 }
 
+.h-\[900px\] {
+  height: 900px;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[650px\] {
+  height: 650px;
+}
+
+.h-\[680px\] {
+  height: 680px;
+}
+
+.h-\[670px\] {
+  height: 670px;
+}
+
+.h-\[668px\] {
+  height: 668px;
+}
+
+.h-\[672px\] {
+  height: 672px;
+}
+
 .min-h-full {
   min-height: 100%;
 }
