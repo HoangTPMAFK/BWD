@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/build/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+<body class="bg-black min-h-full">
+  <header class="sticky top-0 z-40">
+    <section class="flex flex-row py-2 justify-between items-center">
+      <div class="text-white flex flex-row items-center">
+        <img src="/img/icons8-cloudy-48.png" class="h-16">
+        <h1 class="text-3xl">Weather Vision</h1>
+      </div>
+      <div>
+        <input type="text" class="w-80 pl-2 rounded-2xl py-2" placeholder="Search city">
+        <select class="rounded-2xl px-2 py-1">
+          <option>ENG</option>
+        </select>
+        <button class="text-white bg-violet-400 px-2 rounded-2xl py-2"><i class="fas fa-location"></i> Current location</button>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="fixed left-4 translate-y-1">
+      <nav>
+        <ul class="text-white flex flex-col gap-8 text-4xl px-2 text-center rounded-2xl bg-neutral-500 h-[calc(100vh-90px)] items-center">
+          <li class="cursor-pointer">
+            <a><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li class="cursor-pointer">
+            <a><i class="fa-solid fa-chart-simple"></i></a>
+          </li>
+          <li class="cursor-pointer">
+            <a><i class="fa-regular fa-calendar-days"></i></a>
+          </li>
+          <li class="cursor-pointer">
+            <a><i class="fa-solid fa-newspaper"></i></a>
+          </li>
+          <li class="cursor-pointer">
+            <a><i class="fa-solid fa-circle-info"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="w-[calc(100%-90px)] ml-auto text-white relative top-1">
+      <article class="text-xl w-full md:w-2/5 float-left">
+        <div class="mx-2 px-2 bg-neutral-500 rounded-2xl h-[calc(100vh-92px)] min-h-[550px]">
+          <p class="text-3xl"><i class="fa-solid fa-location-dot"></i> London, GB</p>
+          <img src="/img/weather-heavy-snow-5.svg" class="h-36">
+          <div class="flex flex-row justify-between items-center text-wrap">
+            <h1 class="text-6xl lg:text-7xl w-1/2">10°C</h1>
+            <span class="text-2xl w-1/2">Feel like 5°C</span>
+          </div>
+          <div class="h-[2px] w-100% my-2 bg-white"></div>
+          <p class="my-2"><i class="fa-regular fa-calendar"></i> Tuesday. 16. Feb</p>
+          <p class="my-2"><i class="fa-regular fa-clock"></i> 12:00:00</p>
+          <div class="overflow-x-scroll flex flex-row gap-4 my-2">
+            <div class="bg-slate-500 ml-4 w-28 h-44 border rounded-2xl flex-shrink-0"></div>
+            <div class="bg-slate-500 ml-4 w-28 h-44 border rounded-2xl flex-shrink-0"></div>
+            <div class="bg-slate-500 ml-4 w-28 h-44 border rounded-2xl flex-shrink-0"></div>
+            <div class="bg-slate-500 ml-4 w-28 h-44 border rounded-2xl flex-shrink-0"></div>
+            <div class="bg-slate-500 ml-4 w-28 h-44 border rounded-2xl flex-shrink-0"></div>
+            <div class="bg-slate-500 ml-4 w-28 h-44 border rounded-2xl flex-shrink-0"></div>
+            <div class="bg-slate-500 ml-4 w-28 h-44 border rounded-2xl flex-shrink-0"></div>
+          </div>
+        </div>
+        
+      </article>
+      <article class="w-full md:w-3/5 h-72 float-right relative items-center pb-1">
+        <div class="text-5xl text-center bg-neutral-500 h-full rounded-2xl mx-2">Map</div>
+      </article>
+      <article class="float-right w-full md:w-3/5 h-[calc(100vh-380px)] min-h-96 rounded-2xl pt-1">
+        <div class="text-5xl text-center bg-neutral-500 h-full rounded-2xl mx-2 flex flex-row flex-wrap items-center">
+          <div class="w-1/2 text-lg px-2">
+            <div class="bg-black rounded-2xl">
+              <div class="flex flex-row items-center justify-between mx-2">
+                <div class="flex flex-row items-center">
+                  <img src="/img/wind-svgrepo-com.svg" class="h-14">
+                  <p>Air quality index</p>
+                </div>
+                <span class="rounded-3xl bg-green-400 text-black px-2 text-sm">Good</span>
+              </div>
+              <div class="flex flex-row flex-wrap">
+                <div class="w-1/2">
+                  <p class="text-opacity-80 text-sm">PM2.5</p>
+                  <h2 class="text-3xl">23.33</h2>
+                </div>
+                <div class="w-1/2">
+                  <p class="text-opacity-80 text-sm">PM2.5</p>
+                  <h2 class="text-3xl">23.33</h2>
+                </div>
+                <div class="w-1/2">
+                  <p class="text-opacity-80 text-sm">PM2.5</p>
+                  <h2 class="text-3xl">23.33</h2>
+                </div>
+                <div class="w-1/2">
+                  <p class="text-opacity-80 text-sm">PM2.5</p>
+                  <h2 class="text-3xl">23.33</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-1/2 text-lg px-2 rounded-2xl">
+            <div>
+              <div class="flex flex-row items-center justify-between">
+                <p class="text-3xl">Today's highlight</p>
+              </div>
+              <div class="flex flex-row flex-wrap gap-2">
+                <div class="bg-black w-[calc(50%-16px)] rounded-2xl h-32">
+                  <p class="text-opacity-80 text-xl mt-2">Humidity</p>
+                  <div class="flex flex-row items-center justify-around mt-2">
+                    <img src="/img/humidity.png" class="h-12">
+                    <div><span class="text-4xl">84</span><br>%</div>
+                  </div>
+                </div>
+                <div class="bg-black w-[calc(50%-16px)] rounded-2xl h-32">
+                  <p class="text-opacity-80 text-xl mt-2">UV index</p>
+                  <div class="flex flex-row items-center justify-around mt-2">
+                    <img src="/img/uv-protection.png" class="h-12">
+                    <div><span class="text-4xl">5.50</span><br>UV</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-1/2 text-lg px-2 rounded-2xl">
+            <div class="bg-black rounded-2xl p-2">
+              <div class="flex flex-row items-center justify-between">
+                <p class="text-3xl">Sunrise & Sunset</p>
+              </div>
+              <div class="flex flex-row flex-wrap gap-2">
+                <div class="w-[calc(50%-16px)] rounded-2xl flex flex-col justify-center items-center">
+                  <img src="/img/icons8-sunrise-48.png" class="h-16 w-16 flex-grow-0">
+                  <p class="text-3xl">05:30</p>
+                  <p class="text-opacity-80">Sunrise</p>
+                </div>
+                <div class="w-[calc(50%-16px)] rounded-2xl flex flex-col justify-center items-center">
+                  <img src="/img/icons8-sunset-48.png" class="h-16 w-16 flex-grow-0">
+                  <p class="text-3xl">18:30</p>
+                  <p class="text-opacity-80">Sunset</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-1/2 text-lg px-2 rounded-2xl">
+            <div class="flex flex-row flex-wrap gap-2 h-44">
+              <div class="bg-black w-[calc(50%-16px)] rounded-2xl">
+                <p class="text-opacity-80 text-xl mt-2">Visibility</p>
+                <div class="flex flex-row items-center justify-around mt-4">
+                  <img src="/img/eye-svgrepo-com.svg" class="h-12">
+                  <div><span class="text-5xl">04</span><br>km</div>
+                </div>
+              </div>
+              <div class="bg-black w-[calc(50%-16px)] h-50 rounded-2xl">
+                <p class="text-opacity-80 text-xl mt-2">Wind</p>
+                <div class="flex flex-row items-center justify-around mt-4">
+                  <img src="/img/wind-svgrepo-com.svg" class="h-12">
+                  <div><span class="text-5xl">7.75</span><br>km/h</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
